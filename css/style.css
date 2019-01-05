@@ -1013,10 +1013,12 @@ img {
 
 .section-heading-four p {
     margin: 0;
+    color: gainsboro;
+    font-size: 1.2em;
 }
 
 /* sdasdasd*/
-.product-area .product-heading {
+/*.product-area .product-heading {
     position: relative;
     z-index: 1000;
     display: block;
@@ -1043,5 +1045,328 @@ img {
 .product-area select option {
     color: #000000;
 }
-
+*/
 /*asdasd*/
+
+
+.pd-0 {
+    padding: 0px;
+}
+
+.product-area .product-slider {
+    z-index: 999;
+}
+
+.product-area .product-slider .pro-list figure {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #f2f2f2;
+    transition: all 0.3s;
+    border-bottom: 1px solid #cf6161;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-area .product-slider .pro-list figure img {
+    display: block;
+    width: 100%;
+}
+.product-area .product-slider .pro-list .content {
+    display: block;
+    background: #fff;
+    text-align: center;
+    padding: 0 0 40px;
+}
+
+.product-area .product-slider .pro-list .content .price {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    color: #fff;
+    border-radius: 100%;
+    margin: -50px auto 0;
+    z-index: 999;
+    position: relative;
+    line-height: 100px;
+    text-align: center;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cf6161;
+}
+
+
+.product-area .product-slider .pro-list .content .price span {
+    font-size: 26px;
+    font-family: "Abel", sans-serif;
+    color: #212121;
+    transition: all 0.3s;
+}
+
+.product-area .product-slider .pro-list .content ul {
+    display: block;
+    margin: 20px 0 15px;
+}
+
+.list-inline li {
+    display: inline-block;
+}
+
+.product-area .product-slider .pro-list .content ul li {
+    padding: 0;
+    color: #cf6161;
+}
+
+.product-area .product-slider .pro-list .content ul li:last-child {
+    color: #797979;
+}
+
+.product-area .product-slider .pro-list .content h3 {
+    font-family: "Abel", sans-serif;
+    font-size: 30px;
+    color: #212121;
+    margin: 0 0 15px;
+}
+
+
+a {
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.btn4 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 37px;
+    border-radius: 50px;
+    height: 50px;
+}
+
+
+
+.btn4 span {
+    position: relative;
+    display: block;
+    z-index: 999;
+}
+
+.btn4:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 50px;
+    background: #212121;
+    transition: all 0.3s;
+}
+
+.btn4:hover {
+  text-decoration: none;
+  text-shadow: 0 5px 8px rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.btn4:hover:after {
+  background: #cf6161;
+}
+
+
+.product-area .owl-controls {
+    margin: 0;
+}
+
+.product-area .owl-controls .owl-buttons {
+    position: absolute;
+    top: 48%;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+.product-area .owl-controls .owl-buttons div {
+    position: absolute;
+    color: #fff;
+    background: transparent;
+    font-size: 24px;
+}
+
+.product-area .owl-controls .owl-buttons div.owl-prev {
+    left: -50px;
+}
+
+.product-area .owl-controls .owl-buttons div.owl-next {
+    right: -50px;
+}
+
+
+
+.product-area .product-slider .pro-list:hover figure {
+  border-bottom: 1px solid #cf6161;
+}
+.product-area .product-slider .pro-list:hover .content .price {
+  background: #cf6161;
+}
+.product-area .product-slider .pro-list:hover .content .price span {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+/*testimonia Area*/
+
+
+
+
+.section-heading-four {
+  display: block;
+  position: relative;
+  margin: 0 0 60px;
+  z-index: 999;
+}
+.section-heading-four:after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  top: -140px;
+  height: 140px;
+  background: #212121;
+  left: 0;
+  opacity: 0.5;
+}
+.section-heading-four:before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  top: 8px;
+  height: 6px;
+  background: #cf6161;
+  left: 0;
+}
+.section-heading-four h2 {
+  font-family: "Abel", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: 500;
+  margin: 0 0 15px;
+  display: block;
+  padding-top: 38px;
+  color: #fff;
+}
+.section-heading-four h2 span {
+  color: #cf6161;
+}
+.section-heading-four p {
+  margin: 0;
+}
+
+
+.section {
+    padding: 100px 0 100px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.bg-img {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+
+
+
+
+
+
+
+.testimonial-area {
+  background: url(../images/testimonial/bg-1.jpg);
+  position: relative;
+  display: block;
+}
+.testimonial-area:after {
+  background: rgba(0, 0, 0, 0.8);
+}
+.testimonial-area .testimonial-slider {
+  z-index: 999;
+  margin-top: -130px;
+}
+.testimonial-area .testimonial-list {
+  position: relative;
+  z-index: 999;
+  padding-top: 130px;
+}
+.testimonial-area .testimonial-list .content {
+  display: block;
+  padding: 100px 90px;
+  background: rgba(255, 255, 255, 0.05);
+}
+.testimonial-area .testimonial-list .content p {
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
+  line-height: 35px;
+  margin: 0 0 15px;
+  display: block;
+}
+.testimonial-area .testimonial-list .content a {
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  font-size: 22px;
+}
+.testimonial-area .testimonial-list .content a span {
+  color: #cf6161;
+}
+.testimonial-area .testimonial-list figure {
+  display: block;
+  margin-top: -130px;
+}
+.testimonial-area .testimonial-list figure img {
+  width: 100%;
+}
+
+
+
+
+.testimonial-area .owl-controls {
+  margin: 0;
+}
+.testimonial-area .owl-controls .owl-buttons {
+  position: absolute;
+  top: 65%;
+  display: inline-block;
+  background: #cf6161;
+  left: 61%;
+  border-radius: 50px;
+  padding: 0 25px;
+}
+.testimonial-area .owl-controls .owl-buttons div {
+  color: #fff;
+  background: transparent;
+  font-size: 18px;
+  line-height: 50px;
+  border-radius: 0;
+  margin: 0;
+}
+.testimonial-area .owl-controls .owl-buttons div.owl-prev {
+  border-right: 1px solid #fff;
+}

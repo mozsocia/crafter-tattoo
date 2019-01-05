@@ -1,14 +1,5 @@
-(function ($) {
+$(document).ready(function() {
+ 
 
-
-
-    
-    
-    
-    
-    
-    
-    })(jQuery);
-
-
-console.log("hello");
+ 
+});
